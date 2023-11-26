@@ -313,8 +313,8 @@ body {
     fill: #F4F4FD;
     
 }
-.menu-icon .icon-social:hover,
-.menu-icon .icon-social:focus {
+.icon-social:hover,
+.icon-social:focus {
     background-color: #404bbf; 
 }
 
@@ -426,7 +426,7 @@ margin-bottom: 16px;
 .icon-menu {
     gap: 16px;
 }
-.menu-icon .social-icon:focus,
-.menu-icon .social-icon:hover {
+.social-icon:hover,
+.social-icon:focus {
     background-color: #31d0aa;
 }
