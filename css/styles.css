@@ -268,7 +268,6 @@ body {
     box-shadow: 0px 2px 1px 0px rgba(46, 47, 66, 0.08), 
     0px 1px 1px 0px rgba(46, 47, 66, 0.16), 
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);;
 }
 
 .section-subtitle {
@@ -307,13 +306,16 @@ body {
     border-radius: 50%;
     width: 40px;
     height: 40px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
 }
 .svg-icon {
     fill: #F4F4FD;
+    
 }
 .menu-icon .icon-social:hover,
 .menu-icon .icon-social:focus {
-    background-color: #404bbf;
+    background-color: #404bbf; 
 }
 
 /* Section 4 */
@@ -423,4 +425,8 @@ margin-bottom: 16px;
 
 .icon-menu {
     gap: 16px;
+}
+.menu-icon .social-icon:focus,
+.menu-icon .social-icon:hover {
+    background-color: #31d0aa;
 }
