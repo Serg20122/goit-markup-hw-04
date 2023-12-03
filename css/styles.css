@@ -106,13 +106,9 @@ body {
     left: 0;
     bottom: -1px;
     height: 4px;
-    width: 48px;
+    width: 100%;
     background-color: #404bbf;
     border-radius: 2px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-
 }
 
 .page-nav .link:hover,
@@ -330,7 +326,7 @@ fill: #2E2F42;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .menu-icon {
     display: flex;
